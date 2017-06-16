@@ -1,0 +1,103 @@
+h1
+{
+    border-style: solid; /*Crea un borde a "p"*/
+    border-width: 10px; /*aumenta el grosor de la lia que encierra "p"*/
+    border-color: whitesmoke; /*cambia de color el borde*/
+    border-radius: 10px; /* hace curvas las esquinas*/
+    font-family: Freestyle Script;
+    font-size: 100px;
+    color: whitesmoke;
+
+}
+p
+{
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 120%;
+}
+header img{
+    vertical-align: middle;
+}
+nav{
+    position: absolute; /*comentario*/
+    left: 0; /*comentario*/
+    width: 100%; /*comentario*/
+    background: url(bote.jpg);
+    background-color: black;
+
+}
+nav ul{
+    margin: 0 auto;
+    width: 1000px;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    display: block;
+    margin-right: 50px;
+    width: 100px;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: white
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li.selected a
+{
+    color: white;   
+}
+aside{
+    border-style: solid; /*Crea un borde a "p"*/
+    border-width: 10px; /*aumenta el grosor de la lia que encierra "p"*/
+    border-color: white; /*cambia de color el borde*/
+    border-radius: 25px; /* hace curvas las esquinas*/
+    width: 30%;
+    height: 300px;
+    display:inline-block;
+    vertical-align: top;
+    color: whitesmoke;
+}
+section{
+    border-style: solid; /*Crea un borde a "p"*/
+    border-width: 10px; /*aumenta el grosor de la lia que encierra "p"*/
+    border-color: white; /*cambia de color el borde*/
+    border-radius: 10px; /* hace curvas las esquinas*/
+    width: 70%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    border: width border-style color;
+    color:  white;
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+center{
+    border-style: solid; /*Crea un borde a "p"*/
+    border-width: 10px; /*aumenta el grosor de la lia que encierra "p"*/
+    border-color: whitesmoke; /*cambia de color el borde*/
+    border-radius: 10px; /* hace curvas las esquinas*/
+}
+h10
+{
+    color: white;
+    
+}
+h2
+{
+    color: black;
+}
+p
+
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
